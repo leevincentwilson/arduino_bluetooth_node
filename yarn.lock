@@ -895,6 +895,11 @@
   version "11.11.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.3.tgz#7c6b0f8eaf16ae530795de2ad1b85d34bf2f5c58"
 
+"@types/node@^7.0.10":
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.10.5.tgz#6831006b2c87441d69e79b37ae9bc03246dfb379"
+  integrity sha512-RYkagUUbxQBss46ElbEa+j4q4X3GR12QwB7a/PM5hmVuVkYoW1jENT1+taspKUv8ibwW8cw+kRFbOaTc/Key3w==
+
 "@types/prop-types@*":
   version "15.7.0"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
@@ -1564,6 +1569,16 @@ bindings@1.2.x:
 bluebird@^3.5.1, bluebird@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
+
+bluetooth-serial-port@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/bluetooth-serial-port/-/bluetooth-serial-port-2.2.2.tgz#b8329b64ec649de9d711ad251192fdf31af175d1"
+  integrity sha512-aIELinT7K6R9Qba/7p8wXrq2dZhCGevtXInrZojNusx7ywYKBemTVpLcyFl1t2z27MLpB1JrzkxaCVB1JdOtdQ==
+  dependencies:
+    bindings "1.2.x"
+    nan latest
+  optionalDependencies:
+    "@types/node" "^7.0.10"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"

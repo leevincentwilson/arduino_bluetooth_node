@@ -1,14 +1,28 @@
-console.log('Hello Server!');
-const bluetooth = require('node-bluetooth');
+const btSerial = new (require('bluetooth-serial-port')).BluetoothSerialPort();
 
-// create bluetooth device instance
-const device = new bluetooth.DeviceINQ();
+btSerial.on('found', function(address, name) {
+    console.log('found', name);
+    console.log('found address:', address);
+    btSerial.findSerialPortChannel(address, function(channel) {
+        btSerial.connect(address, channel, function() {
+            console.log('connected address:', address);
+            console.log('connected channel:', channel);
+            btSerial.write(Buffer.from('my data', 'utf-8'), function(err, bytesWritten) {
+                if (err) console.log(err);
+            });
+            console.log('bt written');
 
-device.listPairedDevices(console.log);
+            /*btSerial.on('data', function(buffer) {
+                console.log('data received',buffer);
+               console.log(buffer.toString('utf-8'));
+            });*/
+        }, function (err) {
+            console.log('cannot connect', err);
+        });
 
-console.log('---------------');
-device
-  .on('finished',  console.log.bind(console, 'finished'))
-  .on('found', function found(address, name){
-    console.log('Found: ' + address + ' with name ' + name);
-  }).scan();
+    }, function() {
+        console.log('found nothing');
+    });
+});
+
+btSerial.inquire();
