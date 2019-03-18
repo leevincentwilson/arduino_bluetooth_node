@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> It should render the home page 1`] = `
+<div>
+  Hello World!
+</div>
+`;
