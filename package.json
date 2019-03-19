@@ -15,7 +15,7 @@
     "node-bluetooth": "^1.2.5"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node src/server/index.js",
+    "start": "nodemon --exec babel-node src/node/index.js",
     "lint": "eslint --ext .js src --config ./config/.eslintrc.js"
   }
 }
