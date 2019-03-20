@@ -20,11 +20,17 @@ Node
       Go here and follow the setup for your computer : [https://github.com/nodejs/node-gyp]
 2.    Use Yarn or NPM to install the project (Yarn is preferred)
           yarn
+          
               or
+              
           npm install
+          
 3.    Start the node server. 
           Yarn start
+          
               or
-          npm start      
+              
+          npm start   
+          
 4.    Look at your console and your Serial Monitor, you should now see the computer and the Arduino have a little chat. 
       
