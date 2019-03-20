@@ -19,6 +19,7 @@ Node
 1.    Add node GYP if you don't already have it. Node Gyp allows node to use your machines hardware devices such as its bluetooth transmitter.
       Go here and follow the setup for your computer : [https://github.com/nodejs/node-gyp]
 2.    Use Yarn or NPM to install the project (Yarn is preferred)
+
           yarn
           
               or
@@ -26,6 +27,7 @@ Node
           npm install
           
 3.    Start the node server. 
+
           Yarn start
           
               or
@@ -33,4 +35,13 @@ Node
           npm start   
           
 4.    Look at your console and your Serial Monitor, you should now see the computer and the Arduino have a little chat. 
+      
+      
+#Contact Me
+
+This is a little library I put together after working on the problem for a little while, it's not perfect and i'm sure there are better ways to do it. Any comments, problems or improvements please let me know by adding a comment on the [Arduino Projects Page](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
+
+Thanks,
+
+Lee
       
