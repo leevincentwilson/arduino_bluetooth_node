@@ -37,7 +37,7 @@ Node
 4.    Look at your console and your Serial Monitor, you should now see the computer and the Arduino have a little chat. 
       
       
-#Contact Me
+# Contact Me
 
 This is a little library I put together after working on the problem for a little while, it's not perfect and i'm sure there are better ways to do it. Any comments, problems or improvements please let me know by adding a comment on the [Arduino Projects Page](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
 
