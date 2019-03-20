@@ -2,7 +2,7 @@
 
 For more information see the [Arduino Project](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
 
-This repo contains both the Arduino code under src/arduino and the node code under src/node
+This [repo](https://github.com/leevincentwilson/arduino_bluetooth_node) contains both the Arduino code under src/arduino and the node code under src/node
 
 # How to guide
 
