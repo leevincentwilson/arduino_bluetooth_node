@@ -1,6 +1,6 @@
 # arduino_bluetooth_node
 
-For more information see the [Arduino Project(https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
+For more information see the [Arduino Project](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
 
 This repo contains both the Arduino code under src/arduino and the node code under src/node
 
@@ -8,7 +8,7 @@ This repo contains both the Arduino code under src/arduino and the node code und
 
 Arduino
 
-1.   Wire up your arduino, more information can be found at the [Arduino Project(https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
+1.   Wire up your arduino, more information can be found at the [Arduino Project](https://create.arduino.cc/projecthub/mayooghgirish/arduino-bluetooth-basic-tutorial-d8b737)
 2.   Upload the Arduino code to your Arduino
 3.   Open the Serial Monitor and point to **Baud 4800** 
 
